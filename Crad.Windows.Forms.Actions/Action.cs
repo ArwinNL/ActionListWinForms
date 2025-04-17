@@ -101,6 +101,7 @@ namespace Crad.Windows.Forms.Actions
         #endregion
 
         private ActionList actionList;
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         protected internal ActionList ActionList
         {
             get { return actionList; }
@@ -400,6 +401,7 @@ namespace Crad.Windows.Forms.Actions
         }
 
         private bool interceptingCheckStateChanged;
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         internal bool InterceptingCheckStateChanged
         {
             get { return interceptingCheckStateChanged; }

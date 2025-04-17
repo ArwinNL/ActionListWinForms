@@ -204,6 +204,7 @@ namespace Crad.Windows.Forms.Actions
 
         #region reference to ContainerControl
         private ContainerControl containerControl;
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public ContainerControl ContainerControl
         {
             get { return containerControl; }
@@ -278,6 +279,7 @@ namespace Crad.Windows.Forms.Actions
             }
         }
 
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public override ISite Site
         {
             get
