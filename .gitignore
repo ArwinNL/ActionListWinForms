@@ -26,3 +26,4 @@ T4MVC.cs
 /packages
 /setup.exe
 /.nuget/*.nupkg
+/.vs/Crad.Windows.Forms.Actions
